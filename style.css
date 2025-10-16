@@ -1,0 +1,97 @@
+.top-bar {
+  background: #e8f0ef;
+  font-size: 14px;
+}
+
+.navbar-brand span {
+  color: #38b48b;
+}
+
+.navbar a.text-dark:hover {
+  color: #198754 !important;
+  /* Bootstrap green */
+  transition: color 0.3s ease;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #f4c6c6, #e88d8d);
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.product-img {
+  max-height: 160px;
+}
+
+.search-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.back-stock-banner {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.navbar-brand .vitamin {
+  color: green;
+}
+
+.carousel-item:nth-of-type(3)>.row {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05);
+  background-color: lightgray;
+}
+
+.hover-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .hover-btn {
+  opacity: 1;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  z-index: 2;
+}

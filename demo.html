@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyVitaminStore - Leading Online</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div class="top-bar py-2 px-3 d-flex justify-content-between align-items-center">
+    <div><i class="bi bi-telephone"></i> 03400687867</div>
+    <div>Free shipping on orders above PKR 2,500.</div>
+    <div><i class="bi bi-envelope"></i> contact@myvitaminstore.pk</div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand " href="#">my<span class="vitamin fw-bold">vitamin</span>store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <form class="d-flex w-75">
+          <input class="form-control  search-box" type="search" placeholder="Search for Products">
+          <button class="btn btn-success" type="submit">search</button>
+        </form>
+      </div>
+      <div class="d-none d-lg-flex align-items-center  ">
+        <a href="#" class="me-3 text-dark ">Sell on MVS</a>
+        <a href="#" class="me-3 text-dark gap-2">How to Order</a>
+        <a href="#" class="me-3 text-dark">Login/Register</a>
+        <a href="#" class="text-dark"><i class="bi bi-cart"></i> <span>(0)</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="Gumvits">
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="Alyve">
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="Hype">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- Quick Shop Section -->
+  <section class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class="" style="font-family: serif; font-size: 250%; color: #48ad92;">Quick Shop</h2>
+      <div class="text-center mb-3 ">
+        <img src="Capture 1.PNG" class="pb-4 px-3 mt-none" alt="wavy underline" width="180">
+      </div>
+
+      <div class="row justify-content-center">
+        <!-- Category Item -->
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="Homeopathy.avif" class="img-fluid rounded-circle" alt="Homeopathy">
+          </div>
+          <p class="mt-2 large fw-medium">Homeopathy/Herbal</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="supliment.avif" class="img-fluid rounded-circle" alt="Wellness">
+          </div>
+          <p class="mt-2 large fw-medium">supliments</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="Food_Snacks.avif" class="img-fluid rounded-circle" alt="Snacks">
+          </div>
+          <p class="mt-2 large fw-medium">Food & Snacks</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="Personal-Care.jpg" class="img-fluid rounded-circle" alt="Care">
+          </div>
+          <p class="mt-2 large fw-medium">Personal Care</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="Food_Snacks.avif" class="img-fluid rounded-circle" alt="Pets">
+          </div>
+          <p class="mt-2 large fw-medium"> Food & Snacks</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-4">
+          <div class="circle-box mx-auto">
+            <img src="Home_Sense.avif" class="img-fluid rounded-circle" alt="Home Sense">
+          </div>
+          <p class="mt-2 large fw-medium">Home Sense</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container py-5">
+    <div class="row g-3">
+      <!-- Left Large Image -->
+      <div class="col-lg-6 col-md-12">
+        <div class="category-box">
+          <img src="https://www.myvitaminstore.pk/cdn/shop/files/Collage_Supplements.jpg?v=1742805629&width=750"
+            alt="Collagen Supplements" class="img-fluid w-100 ">
+        </div>
+      </div>
+
+      <!-- Right 4 Small Images -->
+      <div class="col-lg-6 col-md-12">
+        <div class="row g-3">
+          <div class="col-md-6 col-6">
+            <div class="category-box">
+              <img src="https://www.myvitaminstore.pk/cdn/shop/files/MVS-Banner-330-by-330-3.jpg?v=1681896534&width=400"
+                alt="Baby Care" class="img-fluid w-100 ">
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <div class="category-box">
+              <img src="https://www.myvitaminstore.pk/cdn/shop/files/Biotin_Supplements.jpg?v=1742811687&width=400"
+                alt="Biotin Supplements" class="img-fluid w-100 ">
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <div class="category-box">
+              <img src="https://www.myvitaminstore.pk/cdn/shop/files/MVS-Banner-330-by-330-4.jpg?v=1682935675&width=400"
+                alt="Sexual Wellness" class="img-fluid w-100 ">
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <div class="category-box">
+              <img src="https://www.myvitaminstore.pk/cdn/shop/files/MVS-Banner-330-by-330-2.jpg?v=1681896663&width=400"
+                alt="Body Sprays" class="img-fluid w-100 rounded shadow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class="" style="font-family: serif; font-size: 250%; color: #48ad92;">Special Offer</h2>
+
+      <img src="Capture 1.PNG" class="pb-4 px-3 mb-2 mt-none" alt="wavy underline" width="180">
+
+      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-18%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/Gumvits_Apple_Cider_Vinegar_500mg_Gummies.png?v=1727079299&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Gumvits Apple Cider Vinegar 500mg Gummies, 60 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">21 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 10,390</span>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-17%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/webber-naturals-omega-3-6-9-1200mg-60-ct-454967.jpg?v=1713784439&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Webber Naturals Omega 3-6-9 1200mg, 60 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">32 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 6,490</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 2,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-20%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/Webber_Naturals_Omega-3_Fish_Oil_1000mg_60_Ct_16cd51b8-9c8b-4564-ad31-64d4bd864d7c.jpg?v=1746099801&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Webber Naturals Omega-3 Fish Oil 1000mg, 60 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★☆</span>
+                                <span class="review-count">45 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 15,390</span><br>
+                                <span class="current-price fw-medium text-danger"> 4,450 --  8,390 PKR</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-10%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/products/MVS-Bundle-Offer-Natural-1-fb2c1fa-my-vitamin-store_325d3353-792b-4f18-861a-27e4d0506c96.jpg?v=1700401090&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Bundle Pack - Calcium & Magnesium Citrate with D3 + OsteoMove
+                            </h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">18 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 7,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,250</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-15%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/bundle-pack-natural-factors-rxomega-3-coenzyme-coq10-935778.jpg?v=1713778256&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Bundle Pack - RxOmega-3 + Coenzyme CoQ10</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★☆</span>
+                                <span class="review-count">27 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 8,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,050 </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+  </section>
+  <section class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class=" " style="font-family: serif; font-size: 250%; color: #48ad92;">New Items</h2>
+
+      <img src="Capture 1.PNG" class="pb-4 px-3 mt-none" alt="wavy underline" width="180">
+
+       <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/NOW_Magnesium_Bisglycinate_Powder_227_g.jpg?v=1739274498&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">NOW Magnesium Bisglycinate Powder, 227g</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">21 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                
+                                <span class="current-price fw-medium text-success">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-10%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/NOW_Vitamin_C_500mg_Chewable_Tablets_Orange_100_Ct.jpg?v=1739267474&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">NOW Vitamin C 500mg Chewable Tablets (Orange), 100 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">32 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 4,950</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/WebberNaturalsHair_Skin_NailsGummies_140Ct.jpg?v=1747026603&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Webber Naturals Hair, Skin & Nails Gummies, 140 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★☆</span>
+                                <span class="review-count">45 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 5,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/CreatineMonohydratePowder_Strawberry_Raspberry_250g-AppliedNutrition.jpg?v=1735814069&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Applied Nutrition Creatine Monohydrate Powder (Strawberry &
+                                Raspberry), 250g</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">18 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 5,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;">-15%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/AppliedNutritionTri-MagnesiumPowder_TropicalVibes_200g.png?v=1751885680&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Applied Nutrition Tri-Magnesium Powder (Tropical Vibes), 200g
+                            </h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★☆</span>
+                                <span class="review-count">27 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 5,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+  </section>
+<section class="py-5 text-center bg-white">
+  <div class="container">
+    <h2 style="font-family: serif; font-size: 250%; color: #48ad92;">Popular Brands</h2>
+    <img src="Capture 1.PNG" class="pb-4 px-3" alt="wavy underline" width="180">
+
+    <div id="brandCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row row-cols-2 row-cols-md-5 g-3 justify-content-center">
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Hype.jpg?v=1738182787&width=196" class="card-img-top" alt="Hype">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/NOW_Foods_04151603-d24a-4384-9afc-3bd231f35f00.jpg?v=1738182897&width=299" class="card-img-top" alt="Now Foods">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Centrum-Logo-30a0bb8-my-vitamin-store.png?v=1679303749&width=200" class="card-img-top" alt="Centrum">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Get_Alyve_Logo.jpg?v=1706529792&width=1920" class="card-img-top" alt="Alyve">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Muscletech-Logo-2e684af-my-vitamin-store.png?v=1679303445&width=200" class="card-img-top" alt="Muscletech">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row row-cols-2 row-cols-md-5 g-3 justify-content-center">
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Applied_Nutrition_a.png?v=1738182085&width=200" class="card-img-top" alt="Applied Nutrition">
+              </div>
+            </div>
+            <!-- Repeat or add more logos here -->
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Centrum-Logo-30a0bb8-my-vitamin-store.png?v=1679303749&width=200" class="card-img-top" alt="Centrum">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Hype.jpg?v=1738182787&width=196" class="card-img-top" alt="Hype">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Muscletech-Logo-2e684af-my-vitamin-store.png?v=1679303445&width=200" class="card-img-top" alt="Muscletech">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <img src="https://www.myvitaminstore.pk/cdn/shop/files/Get_Alyve_Logo.jpg?v=1706529792&width=1920" class="card-img-top" alt="Alyve">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#brandCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#brandCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+  <section class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class=" " style="font-family: serif; font-size: 250%; color:#48ad92;">Top Sellers</h2>
+
+      <img src="Capture 1.PNG" class="pb-4 px-3 mt-none" alt="wavy underline" width="180">
+
+      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/Gumvits_Apple_Cider_Vinegar_500mg_Gummies.png?v=1727079299&width=600"
+                                class="card-img-top" alt="...">
+                            <button class="btn btn-success hover-btn">Add Cart</button>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Gumvits Apple Cider Vinegar 500mg Gummies, 60 Ct</h6>
+                            <div class="rating mb-2">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">21 reviews</span>
+                            </div>
+                            <div class="price mb-2">
+                                <span class="original-price text-decoration-line-through">PKR 5,390</span><br>
+                                <span class="current-price fw-medium text-danger">PKR 4,450</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/GetAlyveMaxamusforMen_30Ct.jpg?v=1750400563&width=600"
+                                class="card-img-top" alt="...">
+                                <button class="btn btn-success hover-btn">Add Cart</button>
+                                </div>
+                            <div class="card-body">
+                                <h6 class="card-title">Get Alyve Maxamus for Men, 30 Ct</h6>
+                                <div class="rating mb-2">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="review-count">32 reviews</span>
+                                </div>
+                                <div class="price mb-2">
+                                    
+                                    <span class="current-price fw-medium text-success">PKR 2,450</span>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/Gumvits_Kids_Multi_Gummies.jpg?v=1727092457&width=600"
+                                class="card-img-top" alt="...">
+                                <button class="btn btn-success hover-btn">Add Cart</button>
+                                </div>
+                            <div class="card-body">
+                                <h6 class="card-title">Gumvits Kids Multi Gummies, 60 Ct</h6>
+                                <div class="rating mb-2">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="review-count">45 reviews</span>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="original-price text-decoration-line-through">PKR 5,390</span>
+                                    <span class="current-price fw-medium text-success">PKR 4,450</span>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <div class="discount-badge bg-danger text-white px-2 py-1"
+                                style="position: absolute; top: 10px; left: 10px; border-radius: 2px;;">-25%</div>
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/get-alyve-womens-daily-one-a-day-multivitamin-30-ct-929143.jpg?v=1713781270&width=600"
+                                class="card-img-top" alt="...">
+                                <button class="btn btn-success hover-btn">Add Cart</button>
+                                </div>
+                            <div class="card-body">
+                                <h6 class="card-title">Get Alyve Women's Daily One A Day Multivitamin, 30 Ct</h6>
+                                <div class="rating mb-2">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="review-count">18 reviews</span>
+                                </div>
+                                <div class="price mb-2">
+                                    
+                                    <span class="current-price fw-medium text-danger">PKR 2,450 - 4,450PKR</span>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100" style="position: relative;">
+                        <div class="image-wrapper">
+                            <img src="https://www.myvitaminstore.pk/cdn/shop/files/natural-factors-vitamin-b12-1000-mcg-methylcobalamin-90-ct-833789.jpg?v=1713781994&width=600"
+                                class="card-img-top" alt="...">
+                                <button class="btn btn-success hover-btn">Add Cart</button>
+                                </div>
+                            <div class="card-body">
+                                <h6 class="card-title">Natural Factors Vitamin B12 1000 mcg (Methylcobalamin), 90 Ct
+                                </h6>
+                                <div class="rating mb-2">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="review-count">27 reviews</span>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="original-price text-decoration-line-through">PKR 5,390</span>
+                                    <span class="current-price fw-medium text-success">PKR 4,450</span>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Payment / Delivery / Exchange Info -->
+  <section class="py-4 border-top">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <img src="https://img.icons8.com/ios-filled/50/000000/wallet.png" alt="Payment" width="40" class="mb-2" >
+          <h6>Payment Options</h6>
+          <p class="text-muted small">COD, Bank Transfer and Credit Card</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://img.icons8.com/ios-filled/50/000000/delivery.png" alt="Delivery" width="40" class="mb-2">
+          <h6>Free Delivery</h6>
+          <p class="text-muted small">On order above PKR 2500</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://img.icons8.com/ios-filled/50/000000/return.png" alt="Return" width="40" class="mb-2">
+          <h6>Free Return & Exchange</h6>
+          <p class="text-muted small">Within 7 days</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-black text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-3 mb-5">
+          <h6 class="fw-bolder ">Help & Support</h6>
+          <ul class="list-unstyled large ">
+            <li><a href="#" class="text-white text-decoration-none">Sell on MVS</a></li>
+            <li><a href="#" class="text-white text-decoration-none py-3">How to Order</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Exchange & Return Policy</a></li>
+            <li><a href="#" class="text-white text-decoration-none py-3">Free Shipping</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Payment Options</a></li>
+            <li><a href="#" class="text-white text-decoration-none py-3">Login/Register</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h6 class="fw-bolder text-li">My Vitamin Store</h6>
+          <ul class="list-unstyled large ">
+            <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+            <li><a href="#" class="text-white text-decoration-none mb-3">Locations</a></li>
+            <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-white text-decoration-none mb-3">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center text-md-center">
+          <h6 class="fw-bold">Get in Touch</h6>
+          <img src="https://www.myvitaminstore.pk/cdn/shop/files/MVS-Logo-White.png?v=1681723684&width=1100"
+            alt="MyVitaminStore Logo" width="70" class="mb-2">
+          <p class="small text-white-50 fw-medium">My Vitamin Store is a retailer dedicated to inspiring
+            <br> customers through
+            unique products.
+          </p>
+          <div>
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2024 <span style="color: #48ad92;">MyVitaminStore</span>. All rights reserved || Designed by Safiullah </p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
